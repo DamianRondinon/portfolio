@@ -16,37 +16,37 @@ const Archive = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
         <ArchiveCard
           title="Proyecto 1"
-          image={captura4}
+          image="{captura4}"
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
@@ -60,7 +60,7 @@ const Archive = () => {
             >
               <ArchiveCard
                 title="Proyecto 1"
-                image={captura4}
+                image="{captura4}"
                 listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
                 link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
               />
@@ -72,7 +72,7 @@ const Archive = () => {
             >
               <ArchiveCard
                 title="Proyecto 1"
-                image={captura4}
+                image="{captura4}"
                 listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
                 link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
               />
@@ -84,7 +84,7 @@ const Archive = () => {
             >
               <ArchiveCard
                 title="Proyecto 1"
-                image={captura4}
+                image="{captura4}"
                 listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
                 link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
               />
