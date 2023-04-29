@@ -54,7 +54,7 @@ const handleEducation5 = () => {
       id="education"
       className="max-w-containerxs mx-auto py-10 lgl:py-32 flex flex-col gap-12"
     >
-      <SectionTitle title="Education" />
+      <title title="Education" />
       <div className="w-full mt-6 flex flex-col md:flex-row gap-24">
         <ul className="md:w-42 flex flex-col">
           <li 

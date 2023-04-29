@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-36 py-36">
-      <SectionTitle title="Projects" />
+      <title title="Projects" />
       <div className="w-full flex flex-col items-center justify-evenly gap-28 mt-10">
         {/* Project one */}
         <motion.div
