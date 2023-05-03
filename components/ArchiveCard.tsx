@@ -1,11 +1,12 @@
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineWeb } from "react-icons/md";
 import Image from "next/image";
+import { StaticImageData } from 'next/image';
 import { logox32, captura4, captura3, captura5 } from "@/public/assets";
 
 interface Props {
   title: string;
-  image: string;
+  image: StaticImageData;
   listItem: string[];
   link: string;
 }
