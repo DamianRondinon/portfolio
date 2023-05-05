@@ -14,6 +14,7 @@ import Education from "@/components/Education";
 import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
             <Archive />
             {/* Blog */}
             <Contact />
-            {/* Footer */}
+            <Footer />
           </div>
         </div>
       </main>

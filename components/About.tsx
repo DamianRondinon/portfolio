@@ -65,13 +65,6 @@ const About = () => {
             Lorem Ipsum es simplemente el texto de relleno de las imprentas y
             archivos de texto. Lorem Ipsum ha sido el texto.
           </p>
-          <p>Here are a few technologies I have been working with recently:</p>
-          <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta).
-          </p>
         </motion.div>
         <div className="w-full lgl:w-1/2 h-80 relative group">
           <div className="absolute w-full h-80 py-0 -left-6 -top-8">
@@ -159,22 +152,18 @@ const About = () => {
               </button>
             </motion.div>
             <motion.div
-            initial={{ y: 0, opacity: 0 }}
-            whileInView={{ y: [20, 0], opacity: 1 }}
-            transition={{ duration: 2 }}
-            >
-            </motion.div>
-            
+              initial={{ y: 0, opacity: 0 }}
+              whileInView={{ y: [20, 0], opacity: 1 }}
+              transition={{ duration: 2 }}
+            ></motion.div>
           </div>
         </div>
       </div>
     </section>
-    
   );
 };
 
 export default About;
-
 
 /*
 

@@ -1,13 +1,15 @@
 import { logox32, captura4, captura3, captura5 } from "@/public/assets";
 import SectionTitle from "./SectionTitle";
+import title from "./SectionTitle";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import { MdOutlineWeb } from "react-icons/md";
 
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-36 py-36">
-      <title title="Projects" />
+      <SectionTitle title="Projects" titleSpan="" />
       <div className="w-full flex flex-col items-center justify-evenly gap-28 mt-10">
         {/* Project one */}
         <motion.div
@@ -53,7 +55,7 @@ const Projects = () => {
                 </button>
                 <button className="border-none outline-none px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-white">
                   <div className="flex justify-center">
-                    <FaGithub className="w-6 h-8" />
+                    <MdOutlineWeb className="w-6 h-8" />
                   </div>
                 </button>
               </div>
@@ -104,7 +106,7 @@ const Projects = () => {
                 </button>
                 <button className="border-none outline-none px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-white">
                   <div className="flex justify-center">
-                    <FaGithub className="w-6 h-8" />
+                    <MdOutlineWeb className="w-6 h-8" />
                   </div>
                 </button>
               </div>
@@ -155,7 +157,7 @@ const Projects = () => {
                 </button>
                 <button className="border-none outline-none px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-white">
                   <div className="flex justify-center">
-                    <FaGithub className="w-6 h-8" />
+                    <MdOutlineWeb className="w-6 h-8" />
                   </div>
                 </button>
               </div>
