@@ -39,7 +39,7 @@ const ArchiveCard = ({ title, image, listItem, link }: Props) => {
         <div className="flex justify-between items-center">
           <button
             className="border-none outline-none px-4 py-2 rounded-md bg-contratsColor 
-                    bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-white"
+                    bg-opacity-100 transition-all hover:bg-bodyColor drop-shadow-md mr-4 mb-4 text-white"
           >
             <div className="flex justify-center">
               <FaGithub className="w-6 h-8" />
@@ -47,7 +47,7 @@ const ArchiveCard = ({ title, image, listItem, link }: Props) => {
           </button>
           <button
             className="border-none outline-none px-4 py-2 rounded-md bg-contratsColor 
-                    bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-white"
+                    bg-opacity-100 transition-all hover:bg-bodyColor drop-shadow-md mr-4 mb-4 text-white"
           >
             <div className="flex justify-center">
               <MdOutlineWeb className="w-6 h-8" />

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { logoapple } from "@/public/assets";
 import dami from "@/public/assets/images/imagenAnimada1.png";
+import imgAnimate from "@/public/assets/images/imgAnimado2.png";
 import { BsInstagram } from "react-icons/bs";
 import { TbBrandGithub, TbBrandTwitter } from "react-icons/tb";
 import { GrLinkedinOption, GrReactjs } from "react-icons/gr";
@@ -39,7 +40,7 @@ const Header = () => {
             </h1>
             <h2 className="mt-3 text-2xl">
               <Typewriter
-                words={["Developer Trainee", "Front-End", "Back-End Student"]}
+                words={["Developer", "Front-End", "Back-End"]}
                 loop
                 cursor
                 cursorStyle="|"
@@ -150,8 +151,8 @@ const Header = () => {
               className="translate-y-1"
             >
               <Image
-                className="rounded-lg h-full object-cover -mt-30 hidden mdl:inline-flex"
-                src={dami}
+                className="rounded-lg h-full object-cover -mt-30 hidden lg:inline-flex"
+                src={imgAnimate}
                 alt="imagen"
               />
             </motion.div>
