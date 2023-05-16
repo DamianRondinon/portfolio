@@ -15,7 +15,7 @@ const Contact = () => {
       </p>
       <a href="mailto:damianrondinon@gmail.com">
         <button
-          className="w-40 h-14 border border-contratsColor mt-6 font-titleFont bg-buttonBlack
+          className="w-40 h-14 border border-contratsColor mt-6 mb-12 font-titleFont bg-buttonBlack
       text-lg text-textLight tracking-wider rounded-md hover:bg-contratsColor duration-300"
         >
           Say hello

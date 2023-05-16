@@ -7,13 +7,23 @@ const Archive = () => {
   const [showMore, setShowMore] = useState(false);
   return (
     <div className="max-w-contentContainer mx-auto px-2 py-24">
-      <div className="w-full flex flex-col items-center">
+      <motion.div
+        className="w-full flex flex-col items-center"
+        initial={{ opacity: 0 }}
+        whileInView={{ y: [-50, 0], opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <h2 className="text-3xl font-titleFont font-semibold">
           Other Projects
         </h2>
         <p className="text-md font-titleFont text-textPink">view the archive</p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+      </motion.div>
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10"
+        initial={{ opacity: 0 }}
+        whileInView={{ y: [50, 0], opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <ArchiveCard
           title="Proyecto 1"
           image={captura3}
@@ -91,9 +101,9 @@ const Archive = () => {
             </motion.div>
           </>
         )}
-      </div>
+      </motion.div>
       <div className="mt-12 flex items-center justify-center">
-        {showMore ? 
+        {showMore ? (
           <button
             onClick={() => setShowMore(false)}
             className="border-none outline-none px-6 py-4 rounded-md bg-buttonBlack bg-opacity-100 
@@ -101,7 +111,7 @@ const Archive = () => {
           >
             Show Less
           </button>
-         : 
+        ) : (
           <button
             onClick={() => setShowMore(true)}
             className="border-none outline-none px-6 py-4 rounded-md bg-buttonBlack bg-opacity-100 
@@ -109,7 +119,7 @@ const Archive = () => {
           >
             Show More
           </button>
-        }
+        )}
       </div>
     </div>
   );

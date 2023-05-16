@@ -9,14 +9,20 @@ import { MdOutlineWeb } from "react-icons/md";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-36 py-36">
-      <SectionTitle title="Projects" titleSpan="" />
-      <div className="w-full flex flex-col items-center justify-evenly gap-28 mt-10">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ y: [-50, 0], opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <SectionTitle titleSpan="Projects" title="" />
+      </motion.div>
+      <div className="w-full flex flex-col items-center justify-evenly gap-28 mt-4">
         {/* Project one */}
         <motion.div
           className="w-full flex flex-col items-center justify-center gap-28 mt-5"
           initial={{ x: 0, opacity: 0 }}
-          whileInView={{ y: [0, 0], opacity: 1 }}
-          transition={{ duration: 1 }}
+          whileInView={{ y: [0, 0], opacity: 2 }}
+          transition={{ duration: 2 }}
         >
           <div className="flex flex-col xl:flex-row gap-6">
             <a
@@ -32,7 +38,12 @@ const Projects = () => {
                 />
               </div>
             </a>
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right xl:-ml-16 z-10">
+            <motion.div
+              className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right xl:-ml-16 z-10"
+              initial={{ x: 0, opacity: 0 }}
+              whileInView={{ x: [-250, 0], opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
               <p className="font-titleFont text-textPink text-xl tracking-wide">
                 Featured Project
               </p>
@@ -59,7 +70,7 @@ const Projects = () => {
                   </div>
                 </button>
               </div>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
         {/* Project two */}
@@ -83,7 +94,12 @@ const Projects = () => {
                 />
               </div>
             </a>
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right z-10">
+            <motion.div
+              className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right z-10"
+              initial={{ x: 0, opacity: 0 }}
+              whileInView={{ x: [-250, 0], opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
               <p className="font-titleFont text-textPink text-xl tracking-wide">
                 Featured Project
               </p>
@@ -110,7 +126,7 @@ const Projects = () => {
                   </div>
                 </button>
               </div>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
         {/* Project three */}
@@ -134,7 +150,12 @@ const Projects = () => {
                 />
               </div>
             </a>
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right xl:-ml-16 z-10">
+            <motion.div 
+            className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-evenly items-end text-right xl:-ml-16 z-10"
+            initial={{ x: 0, opacity: 0 }}
+            whileInView={{ x: [-250, 0], opacity: 1 }}
+            transition={{ duration: 1 }}
+            >
               <p className="font-titleFont text-textPink text-xl tracking-wide">
                 Featured Project
               </p>
@@ -161,7 +182,7 @@ const Projects = () => {
                   </div>
                 </button>
               </div>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
       </div>

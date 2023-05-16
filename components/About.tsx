@@ -44,26 +44,27 @@ const About = () => {
           className="w-full lgl:w-1/2 text-base text-textLight font-medium flex flex-col gap-4"
         >
           <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta).
+            I am currently studying Fullstack Development in a bootcamp that
+            covers the fundamentals of JavaScript, React, and Node.js, aiming to
+            embark on a career in the world of development. Additionally, I am
+            enrolled in the University UTN, pursuing a degree in University
+            Systems Technology. I have experience working with agile
+            methodologies in previous jobs and have collaborated on group
+            projects during my studies.
           </p>
           <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto.
-            <span className="text-textPink">
-              {" "}
-              Lorem Ipsum ha sido el texto.
-            </span>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto.
-            <span className="text-textPink">
-              {" "}
-              Lorem Ipsum ha sido el texto.
-            </span>{" "}
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto.
+            I am a developer who enjoys adapting to the current job market,
+            which is why I started developing myself in
+            <span className="text-textPink"> Front-end. </span>
+            As I progressed, I came across other programming languages and
+            technical areas that sparked my interest, such as software
+            development
+            <span className="text-textPink"> Back-end. </span>
+          </p>
+          <p>
+          Currently, I am actively seeking my first professional experience 
+          as a developer. I feel prepared and aware that there is still much 
+          for me to learn. I am open to accepting any challenge that comes my way.
           </p>
         </motion.div>
         <div className="w-full lgl:w-1/2 h-80 relative group">

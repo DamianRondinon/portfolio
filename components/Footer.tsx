@@ -5,7 +5,12 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <div className="hidden md:inline-flex items-center justify-center w-full py-6 gap-4">
+    <motion.div
+      className="hidden md:inline-flex items-center justify-center w-full py-6 gap-4"
+      initial={{ opacity: 0 }}
+      whileInView={{ y: [-50, 0], opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <a href="" target="_blank">
         <span
           className="w-10 h-10 text-xl bg-contratsColor border-[2px] border-zinc-600
@@ -47,7 +52,7 @@ const Footer = () => {
           <p>damianrondinon@gmail.com</p>
         </motion.a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

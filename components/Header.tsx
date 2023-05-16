@@ -56,10 +56,11 @@ const Header = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-base md:max-w-[550px] font-medium mb-6 mt-6 max-w-lg lg:mx:0"
             >
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-              archivos de texto. Lorem Ipsum ha sido el texto de relleno
-              estándar de las industrias desde el año 1500, cuando un impresor
-              (N. del T. persona que se dedica a la imprenta).
+              I am a passionate web developer with a solid experience of one
+              year in projects and programming languages. My love for technology
+              has led me to be a self-taught student and I am currently in the
+              process of development at the university, studying a technical
+              degree in systems.
             </motion.p>
 
             <div className="flex max-w-max gap-x-6 items-center mx-auto lg:mx-0">
