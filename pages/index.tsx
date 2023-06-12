@@ -15,6 +15,7 @@ import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { LanguageContext } from "./context/language/LanguageContext";
 
 export default function Home() {
   return (
@@ -25,21 +26,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
-        <Navbar />
-        <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
-          <div className="h-[88vh] w-full mx-auto p-4">
-            <Header />
-            <About />
-            <Projects />
-            <Education />
-            <Archive />
-            {/* Blog */}
-            <Contact />
-            <Footer />
+      <LanguageContext>
+        <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+          <Navbar />
+          <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
+            <div className="h-[88vh] w-full mx-auto p-4">
+              <Header />
+              <About />
+              <Projects />
+              <Education />
+              <Archive />
+              {/* Blog */}
+              <Contact />
+              <Footer />
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </LanguageContext>
     </>
   );
 }

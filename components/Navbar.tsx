@@ -7,8 +7,12 @@ import { MdOutlineClose } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbBrandGithub, TbBrandTwitter } from "react-icons/tb";
 import { GrLinkedinOption } from "react-icons/gr";
+import { StateLanguage } from "@/pages/context/language/StateLanguage";
+import { DispatchLanguage } from "@/pages/context/language/DispatchLanguage";
 
 const Navbar = () => {
+  const { language } = StateLanguage();
+  const dispatchLanguage = DispatchLanguage();
   const ref = useRef<string | any>("");
   const [showMenu, setShowMenu] = useState(false);
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -94,9 +98,37 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.3, delay: 0.5 }}
               >
-                Education
+                { language.labels.lb_save }
               </motion.li>
             </Link>
+
+            <Link
+              className="flex items-center gap-1 font-medium hover:text-[#f72585] cursor-pointer duration-200 nav-link"
+              href=""
+              onClick={handleScroll}
+            >
+              <motion.button
+                onClick={ () => dispatchLanguage({type:"ES"})}
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.6 }}
+                className="border-none outline-none	px-4 py-2 rounded-md bg-buttonBlack bg-opacity-100 transition-all hover:bg-contratsColor drop-shadow-md "
+              >
+                ES
+              </motion.button>
+
+              <motion.button
+                onClick={ () => dispatchLanguage({type:"EN"})}
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.6 }}
+                className="border-none outline-none	px-4 py-2 rounded-md bg-buttonBlack bg-opacity-100 transition-all hover:bg-contratsColor drop-shadow-md "
+              >
+                EN
+              </motion.button>
+
+            </Link>
+
             {/* 
             <Link
               className="flex items-center gap-1 font-medium hover:text-[#f72585] cursor-pointer duration-200 nav-link"
@@ -211,6 +243,7 @@ const Navbar = () => {
                       Education
                     </motion.li>
                   </Link>
+
                   {/* 
             <Link
               className="flex items-center gap-1 font-medium hover:text-[#f72585] cursor-pointer duration-200 nav-link"
@@ -290,12 +323,13 @@ const Navbar = () => {
                     </span>
                   </motion.a>
                 </div>
-                <motion.a 
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 1.1, ease: "easeIn" }}
-                className="text-md w-72 tracking-widest text-textPink text-center"
-                href="">
+                <motion.a
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 1.1, ease: "easeIn" }}
+                  className="text-md w-72 tracking-widest text-textPink text-center"
+                  href=""
+                >
                   <p>damianrondinon@gmail.com</p>
                 </motion.a>
               </div>
