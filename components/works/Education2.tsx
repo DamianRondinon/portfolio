@@ -21,7 +21,7 @@ const Education2 = () => {
             <FaAngleDoubleRight />
           </span>
           Proficiency in React: Through this course, 
-          I've mastered React, from its fundamentals 
+          I´ve mastered React, from its fundamentals 
           like JSX to advanced topics like state management. 
           I can now build dynamic user interfaces and fully 
           functional web apps.
@@ -31,7 +31,7 @@ const Education2 = () => {
             <FaAngleDoubleRight />
           </span>
           Firebase Integration for Full Stack Development: 
-          I've also learned to integrate Firebase into my 
+          I´ve also learned to integrate Firebase into my 
           projects, utilizing real-time databases, 
           user authentication, and Firebase Hosting 
           for deployment. This enables me to create 

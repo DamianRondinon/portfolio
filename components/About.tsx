@@ -1,4 +1,4 @@
-import SectionTitle from "./SectionTitle";
+import SectionTitle from './SectionTitle';
 import {
   FaPython,
   FaGitAlt,
@@ -58,15 +58,15 @@ const About = () => {
           </div>
 
           <div className="flex flex-col items-center">
-  <h1 className="text-textPink mb-4">Education and technical skills"</h1>
+  <h1 className="text-textPink mb-4">Education and technical skills</h1>
   <div className="flex flex-col items-start gap-4">
     <div className="flex items-center">
       <FaArrowCircleRight className="w-6 h-6" />
-      <p className="ml-2">Desarrollo Fullstack MERN..</p>
+      <p className="ml-2">Desarrollo Fullstack MERN.</p>
     </div>
     <div className="flex items-center">
       <FaArrowCircleRight className="w-6 h-6" />
-      <p className="ml-2">Bachelor's degree in Computer Science at the National University of Quilmes.</p>
+      <p className="ml-2">Bachelor´s degree in Computer Science at the National University of Quilmes.</p>
     </div>
     <div className="flex items-center">
       <FaArrowCircleRight className="w-6 h-6" />

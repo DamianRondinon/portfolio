@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import { FaAngleDoubleRight } from "react-icons/fa";
+import { motion } from 'framer-motion';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
 const Education1 = () => {
   return (
@@ -10,7 +10,7 @@ const Education1 = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Bachelor's Degree in Computer Science
+        Bachelor´s Degree in Computer Science
       </h3>
       <p className="text-sm mt-2 font-medium text-pinkLight">
         January 2024 - Present
@@ -33,8 +33,7 @@ const Education1 = () => {
           The degree also emphasizes soft skills and 
           professional competencies, such as leadership, 
           teamwork, and critical thinking, taught in 
-          subjects like User Interface Construction and 
-          Software Engineering Elements.
+          subjects like User Interface Construction and Software Engineering Elements.
         </li>
       </ul>
     </motion.div>
