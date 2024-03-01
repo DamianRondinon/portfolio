@@ -29,7 +29,7 @@ const Header = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-lg font-titleFont tracking-wide text-textPink mb-6"
             >
-              Welcome to my world
+              ¡Welcome!
             </motion.h3>
             <h1 className="text-5xl lgl:text-5xl font-titleFont font-semibold">
               Hi, I´m
@@ -56,11 +56,7 @@ const Header = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-base md:max-w-[550px] font-medium mb-6 mt-6 max-w-lg lg:mx:0"
             >
-              I am a passionate web developer with a solid experience of one
-              year in projects and programming languages. My love for technology
-              has led me to be a self-taught student and I am currently in the
-              process of development at the university, studying a technical
-              degree in systems.
+              I´m a web developer, I´m at the beginning of my career, in which I am exploring both the front-end and back-end aspects.
             </motion.p>
 
             <div className="flex max-w-max gap-x-6 items-center mx-auto lg:mx-0">
@@ -78,7 +74,7 @@ const Header = () => {
             </div>
             <motion.div className="text-lg font-titleFont tracking-wide text-textPink mt-10">
               <div className="flex max-w-max gap-x-36 items-center mx-auto lg:mx-0 mt-6">
-                <h1>Find with me & Best skill on</h1>
+                <h1>My main networks and languages</h1>
               </div>
               <div className="flex max-w-max gap-x-8 items-center mx-auto lg:mx-0 mt-6">
                 <div>
@@ -92,7 +88,7 @@ const Header = () => {
 
                   <ToolTip tooltip="Instagram">
                     <a
-                      href="https://www.linkedin.com/in/damian-rondinon/"
+                      href="https://www.instagram.com/damianrondinon/"
                       target="_blank"
                     >
                       <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4">
@@ -117,25 +113,19 @@ const Header = () => {
               <div className="flex max-w-max gap-x-8 items-center mx-auto lg:mx-0 mt-2">
                 <div>
                   <ToolTip tooltip="React">
-                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-iceBlue">
+                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-iceBlue cursor-default">
                       <GrReactjs className="w-6 h-8" />
                     </button>
                   </ToolTip>
 
                   <ToolTip tooltip="JavaScript">
-                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-yellow">
+                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-yellow cursor-default">
                       <DiJavascript1 className="w-6 h-8" />
                     </button>
                   </ToolTip>
 
-                  <ToolTip tooltip="Python">
-                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-yellow">
-                      <FaPython className="w-6 h-8" />
-                    </button>
-                  </ToolTip>
-
                   <ToolTip tooltip="Java">
-                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-iceBlue">
+                    <button className="border-none outline-none	px-4 py-2 rounded-md bg-contratsColor bg-opacity-100 transition-all hover:bg-buttonBlack drop-shadow-md mr-4 mb-4 text-iceBlue cursor-default">
                       <FaJava className="w-6 h-8" />
                     </button>
                   </ToolTip>

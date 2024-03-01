@@ -57,7 +57,7 @@ const Education = () => {
     >
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ y: [-100, 0], opacity: 1 }}
+        whileInView={{ y: [-10, 0], opacity: 2 }}
         transition={{ duration: 1 }}
       >
         <SectionTitle title="" titleSpan="Education" />
@@ -77,7 +77,7 @@ const Education = () => {
                 : "border-2 border-contratsColor text-pinkLight"
             } border-solid bg-transparent hover:bg-contratsColor rounded py-3 text-sm cursor-pointer duration-300 px-8 font-medium mb-1`}
           >
-            UTN
+            UNQ
           </li>
           <li
             onClick={handleEducation2}
@@ -107,7 +107,7 @@ const Education = () => {
                 : "border-2 border-contratsColor text-pinkLight"
             } border-solid text-pinkLight bg-transparent hover:bg-contratsColor rounded py-3 text-sm cursor-pointer duration-300 px-8 font-medium mb-1`}
           >
-            Alura One
+            Oracle Alura
           </li>
           <li
             onClick={handleEducation5}
@@ -117,7 +117,7 @@ const Education = () => {
                 : "border-2 border-contratsColor text-pinkLight"
             } border-solid bg-transparent hover:bg-contratsColor rounded py-3 text-sm cursor-pointer duration-300 px-8 font-medium mb-1`}
           >
-            Open Bootcamp
+            CELC
           </li>
         </ul>
         {education1 && <Education1 />}

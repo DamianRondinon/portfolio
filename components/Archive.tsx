@@ -10,7 +10,7 @@ const Archive = () => {
       <motion.div
         className="w-full flex flex-col items-center"
         initial={{ opacity: 0 }}
-        whileInView={{ y: [-50, 0], opacity: 1 }}
+        whileInView={{ y: [-10, 0], opacity: 2 }}
         transition={{ duration: 1 }}
       >
         <h2 className="text-3xl font-titleFont font-semibold">
@@ -61,6 +61,7 @@ const Archive = () => {
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
 
+        {/* 
         {showMore && (
           <>
             <motion.div
@@ -100,8 +101,9 @@ const Archive = () => {
               />
             </motion.div>
           </>
-        )}
+        )}*/}
       </motion.div>
+      {/* 
       <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
@@ -119,8 +121,9 @@ const Archive = () => {
           >
             Show More
           </button>
+          
         )}
-      </div>
+      </div>*/}
     </div>
   );
 };

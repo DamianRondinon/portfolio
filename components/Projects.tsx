@@ -11,7 +11,7 @@ const Projects = () => {
     <section id="project" className="max-w-container mx-auto lgl:px-36 py-36">
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ y: [-50, 0], opacity: 1 }}
+        whileInView={{ y: [-10, 0], opacity: 2 }}
         transition={{ duration: 1 }}
       >
         <SectionTitle titleSpan="Projects" title="" />

@@ -10,32 +10,28 @@ const Education5 = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Education5
+      English level B1
       </h3>
       <p className="text-sm mt-2 font-medium text-pinkLight">
-        January 2023 - Present
+        March 2023 - Present
       </p>
       <ul className="mt-2 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Enhancing Communication Skills: I practice 
+          speaking to express myself confidently in 
+          English conversations.
         </li>
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
-        </li>
-        <li className="text-base flex gap-2 text-[#faf9f9]">
-          <span className="text-textPink mt-2">
-            <FaAngleDoubleRight />
-          </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Strengthening Comprehension and Grammar: 
+          I reinforce my listening and reading skills 
+          while delving into grammar to communicate 
+          more accurately.
         </li>
       </ul>
     </motion.div>

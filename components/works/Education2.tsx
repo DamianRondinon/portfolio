@@ -10,32 +10,32 @@ const Education2 = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Education2
+      Mastering React: Building Dynamic Web Applications
       </h3>
       <p className="text-sm mt-2 font-medium text-pinkLight">
-        January 2023 - Present
+      August 2022 - March 2023
       </p>
       <ul className="mt-2 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Proficiency in React: Through this course, 
+          I've mastered React, from its fundamentals 
+          like JSX to advanced topics like state management. 
+          I can now build dynamic user interfaces and fully 
+          functional web apps.
         </li>
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
-        </li>
-        <li className="text-base flex gap-2 text-[#faf9f9]">
-          <span className="text-textPink mt-2">
-            <FaAngleDoubleRight />
-          </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Firebase Integration for Full Stack Development: 
+          I've also learned to integrate Firebase into my 
+          projects, utilizing real-time databases, 
+          user authentication, and Firebase Hosting 
+          for deployment. This enables me to create 
+          powerful and scalable web solutions.
         </li>
       </ul>
     </motion.div>

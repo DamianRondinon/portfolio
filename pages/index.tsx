@@ -15,9 +15,12 @@ import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { LanguageContext } from "./context/language/LanguageContext";
+import { IntlProvider } from "react-intl";
+
 
 export default function Home() {
+
+
   return (
     <>
       <Head>
@@ -26,9 +29,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <LanguageContext>
         <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+        <IntlProvider locale="en">
           <Navbar />
+          </IntlProvider>
           <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
             <div className="h-[88vh] w-full mx-auto p-4">
               <Header />
@@ -42,7 +46,6 @@ export default function Home() {
             </div>
           </div>
         </main>
-      </LanguageContext>
     </>
   );
 }

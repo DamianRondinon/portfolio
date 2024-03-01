@@ -10,32 +10,33 @@ const Education3 = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Education3
+      Full Stack Web Development
       </h3>
       <p className="text-sm mt-2 font-medium text-pinkLight">
-        January 2023 - Present
+        Frebaury 2022 - December 2022
       </p>
       <ul className="mt-2 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Web Design and Development: I learned to create 
+          websites from scratch using HTML and CSS, 
+          optimizing them with best practices. I also 
+          mastered additional tools like Bootstrap, 
+          Tailwind, and SASS for more efficient and 
+          appealing web design.
         </li>
         <li className="text-base flex gap-2 text-[#faf9f9]">
           <span className="text-textPink mt-2">
             <FaAngleDoubleRight />
           </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
-        </li>
-        <li className="text-base flex gap-2 text-[#faf9f9]">
-          <span className="text-textPink mt-2">
-            <FaAngleDoubleRight />
-          </span>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto.
+          Front-end and Back-end Programming: I acquired 
+          knowledge in JavaScript, for both dynamic interface 
+          development and full-stack web application creation. 
+          I learned to work with the DOM, use frameworks like 
+          React.js, and develop robust APIs with Node.js and 
+          Express.
         </li>
       </ul>
     </motion.div>
