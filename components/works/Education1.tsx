@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { FaAngleDoubleRight } from 'react-icons/fa';
+import { motion } from "framer-motion";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 const Education1 = () => {
   return (
