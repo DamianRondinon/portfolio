@@ -42,6 +42,7 @@ const Archive = () => {
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
+        {/*
         <ArchiveCard
           title="Proyecto 1"
           image={captura3}
@@ -60,8 +61,7 @@ const Archive = () => {
           listItem={["Reactjs", "Tailwind CSS", "Vercel"]}
           link="http://www.sistemas-utnfra.com.ar/#/pages/carrera/tecnico-programacion/resumen"
         />
-
-        {/* 
+        
         {showMore && (
           <>
             <motion.div
